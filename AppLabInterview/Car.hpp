@@ -13,4 +13,5 @@ class Car
     std::string carPlate;
     std::string model;
     std::vector<Person> passengers;
+    Person driver;
 };
