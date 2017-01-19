@@ -6,7 +6,7 @@ class Car
 {
   public:
     Car(std::string carPlate, std::string model, int seatNumber);
-    void addPassenger(Person person);
+    void addPassenger(Person person, std::string role);
     void removePassenger(Person person);
   private:
     const int seatNumber;
